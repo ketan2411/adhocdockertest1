@@ -1,4 +1,4 @@
-QUESTION1
+#QUESTION1
 #created a dockerfile for image
 FROM alpine
 MAINTAINER ketansharma587@gmail.com
@@ -10,10 +10,10 @@ docker build -t ketan:v1
 #container started
 docker start -i ketan
 
-question3
+#Question3
 docker run -d --name ketanc3q3 -p 1242:80 dockerashu/ckad:v2
 
-Question4
+#Question4
 FROM centos
 RUN yum install httpd
 RUN mkdir /webapp1
