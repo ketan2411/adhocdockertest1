@@ -10,6 +10,8 @@ docker build -t ketan:v1
 #container started
 docker start -i ketan
 
+question3
+docker run -d --name ketanc3q3 -p 1242:80 dockerashu/ckad:v2
 
 Question4
 FROM centos
