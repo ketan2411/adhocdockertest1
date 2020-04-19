@@ -1,0 +1,4 @@
+
+FROM alpine
+MAINTAINER ketansharma587@gmail.com
+CMD date +%H:%M:%S >> time.txt
