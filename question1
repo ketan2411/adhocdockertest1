@@ -11,3 +11,14 @@ docker build -t ketan:v1
 docker start -i ketan
 
 
+Question4
+FROM centos
+RUN yum install httpd
+RUN mkdir /webapp1
+COPY webapp /webapp1
+EXPOSE 80
+ENTRYPOINT httpd -DFOREGROUND
+
+docker build -t ketan:q4 .
+
+
