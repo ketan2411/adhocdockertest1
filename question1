@@ -2,3 +2,7 @@
 FROM alpine
 MAINTAINER ketansharma587@gmail.com
 CMD date +%H:%M:%S >> time.txt
+
+docker build -t ketan:v1
+
+docker start -i ketan
