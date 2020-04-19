@@ -1,8 +1,10 @@
-
+#created a dockerfile for image
 FROM alpine
 MAINTAINER ketansharma587@gmail.com
 CMD date +%H:%M:%S >> time.txt
 
+#created an image 
 docker build -t ketan:v1
 
+#container started
 docker start -i ketan
